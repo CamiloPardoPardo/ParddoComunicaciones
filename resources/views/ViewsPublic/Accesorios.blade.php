@@ -74,7 +74,7 @@
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 portfolio-item">
                     <div class="portfolio-one">
                         <div class="portfolio-head">
-                            <div class="portfolio-img"><img alt="" src="imgappmovil.jpg"></div>
+                            <div class="portfolio-img"><img alt="" src="img/appmovil.jpg"></div>
                             <div class="portfolio-hover">
                                 <a class="portfolio-link" href="#"><i class="fa fa-link"></i></a>
                                 <a class="portfolio-zoom prettyPhoto" href="#"><i class="fa fa-search"></i></a>
