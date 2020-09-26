@@ -12,7 +12,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-8 col-xs-6">
-                        <h4>Portfolio</h4>
+                        <h4>Nuestros Productos</h4>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-6" style="text-align:right;">Home<span class="sep"> / </span><span class="current">Portfolio</span></div>
                 </div>
