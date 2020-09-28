@@ -36,4 +36,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 // Productos
 
-Route::get('/Nuevo-Producto', [App\Http\Controllers\ProductosController::class, 'index'])->name('home');
+Route::get('/Nuevo-Registro', [App\Http\Controllers\AdminController::class, 'Registros'])->name('NuevoRegistro');  
+Route::POST('/Nuevo-Producto', [App\Http\Controllers\ProductosController::class, 'store']);
+Route::POST('/Nuevo-Registro', [App\Http\Controllers\AdminController::class, 'store']);
+

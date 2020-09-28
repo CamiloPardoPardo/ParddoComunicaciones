@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Inventario;
-class ProductosController extends Controller
+use App\Models\Registro;
+
+
+class AdminController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +15,13 @@ class ProductosController extends Controller
      */
     public function index()
     {
-        return redirect('Tecnicos');
+        //
+    }
 
+
+    public function Registros()
+    {
+         return view('ViewsAdmin.Registros');
     }
 
     /**
@@ -35,9 +42,7 @@ class ProductosController extends Controller
      */
     public function store(Request $request)
     {
-        $PrecioInicial = $request->Inversion_Total;
-
-        Inventario::create($request->all());
+        Registro::create($request->all());
         return redirect('Nuevo-Registro');
 
     }

@@ -18,11 +18,13 @@ class CreateInventariosTable extends Migration
             $table->string('Referencia');
             $table->string('Marca');
             $table->string('Producto');
+            $table->text('Decripcion');
+            $table->string('img')->nullable();
             $table->string('Inversion_Total');
             $table->string('Cantidad');
-            $table->string('Precio_Unidad');
+            $table->string('Precio_Unidad')->nullable();
             $table->string('Precio_Final');
-            $table->string('Disponibles');
+            $table->string('Disponibles')->nullable();
             $table->timestamps();
         });
     }
