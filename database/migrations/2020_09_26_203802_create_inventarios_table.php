@@ -18,7 +18,7 @@ class CreateInventariosTable extends Migration
             $table->string('Referencia');
             $table->string('Marca');
             $table->string('Producto');
-            $table->text('Decripcion');
+            $table->text('Descripcion');
             $table->string('img')->nullable();
             $table->string('Inversion_Total');
             $table->string('Cantidad');

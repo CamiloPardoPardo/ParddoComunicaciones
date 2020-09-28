@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class inventario extends Model
 {
-    protected $fillable =['Referencia','Marca','Producto','Inversion_Total','Cantidad','Precio_Final','Decripcion','img'];
+    protected $fillable =['Referencia','Marca','Producto','Inversion_Total','Cantidad','Precio_Final','Descripcion','img'];
 }
